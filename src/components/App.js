@@ -11,7 +11,7 @@ const parseMarkdown = (markdown) => {
   html = html.replace(/^# (.*$)/gim, '<h1>$1</h1>');
 
   // Bold
-  html = html.replace(/\*\*(.*)\*\*/gim, '<b>$1</b>');
+  html = html.replace(/\*\*(.*)\*\*/gim, '<strong>$1</strong>');
 
   // Italic
   html = html.replace(/\*(.*)\*/gim, '<i>$1</i>');
